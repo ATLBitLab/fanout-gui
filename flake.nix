@@ -14,6 +14,7 @@
       {
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
+            nodejs_22
             pkg-config
             gcc # GNU Compiler Collection
             gnumake # Tool to control the generation of non-source files from sources
